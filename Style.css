@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Silkscreen&family=Source+Sans+Pro&family=Ubuntu+Mono&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 body{
     background-color: #1B1533;
     margin: 0;
@@ -28,7 +30,6 @@ body{
 }
 
 .navbutton:hover{
-    /* background-color: #c0ced1; */
     background-color: #08ceff;
     color: black;
     box-shadow: 0 0 15px #08ceff;
@@ -110,7 +111,6 @@ footer{
 
 .events hr{
     border: 1px solid #08ceff;
-    /* margin: 10px 0 10px 0; */
 }
 
 .events p{
@@ -123,10 +123,8 @@ footer{
     border-radius: 30px;
     margin: 10 0 10 0;
     padding: 10px 10px 12px 10px;
-    /* width: 100%; */
     transition-duration: 0.3s;
     background-color: #1B1533;
-    /* text-align: left; */
 }
 
 .events button:hover{
