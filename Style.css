@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Silkscreen&family=Source+Sans+Pro&family=Ubuntu+Mono&display=swap');
+body{
+    background-color: #1B1533;
+    margin: 0;
+    font-family: silkscreen;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+.headbar{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B1533;
+}
+
+.navbutton{
+    font-family: silkscreen;
+    color: white;
+    border: 2px solid #1dc0e9;
+    border-radius: 30px;
+    padding: 10px 45px 12px 20px;
+    margin: 0px -50px 0px 6px;
+    transition-duration: 0.3s;
+    background-color: #1B1533;
+}
+
+.navbutton:hover{
+    /* background-color: #c0ced1; */
+    background-color: #08ceff;
+    color: black;
+    box-shadow: 0 0 15px #08ceff;
+}
+
+.current{
+    font-family: silkscreen;
+    color: white;
+    border: 2px solid #1dc0e9;
+    border-radius: 30px;
+    padding: 10px 45px 12px 20px;
+    margin: 0px -45px 0px 5px;
+    transition-duration: 0.3s;
+    background-color: #1B1533;
+    background-color: #08ceff;
+    color: black;
+    box-shadow: 0 0 15px #08ceff;
+}
+
+.start{
+    height: 800px;
+    color: white;
+    background-image:url("Banner.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn{
+    font-family: silkscreen;
+    color: white;
+    border: 2px solid #1dc0e9;
+    border-radius: 30px;
+    padding: 10px 20px 12px 20px;
+    transition-duration: 0.3s;
+    background-color: #1B1533;
+}
+
+.btn:hover{
+    background-color: #08ceff;
+    color: black;
+    box-shadow: 0 0 15px #08ceff;
+}
+
+hr {
+    margin: auto; 
+    border: 1px solid rgb(194, 194, 194);
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    margin: 0 10% 0 10%;
+    background-color: #1B1533;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+}
+
+.events{
+    margin: 0 20px 0 20px;
+    padding: 0 50px 0 50px;
+    border: 2px solid #08ceff;
+    border-radius: 30px;
+    box-shadow: 0 0 50px black;
+}
+
+.events section{
+    display: flex;
+    justify-content: space-between;
+    padding:5px 0 5px 0 ;
+}
+
+.events hr{
+    border: 1px solid #08ceff;
+    /* margin: 10px 0 10px 0; */
+}
+
+.events p{
+    padding-top: 5px;
+}
+.events button{
+    font-family: silkscreen;
+    color: white;
+    border: 2px solid #1dc0e9;
+    border-radius: 30px;
+    margin: 10 0 10 0;
+    padding: 10px 10px 12px 10px;
+    /* width: 100%; */
+    transition-duration: 0.3s;
+    background-color: #1B1533;
+    /* text-align: left; */
+}
+
+.events button:hover{
+    background-color: #08ceff;
+    color: black;
+    box-shadow: 0 0 15px #08ceff;
+} 
