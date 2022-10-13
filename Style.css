@@ -83,10 +83,10 @@ hr {
 
 footer{
     color: white;
-    margin: 0 10% 0 10%;
+    margin: 2% 10% 2% 10%;
     background-color: #1B1533;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .title {
@@ -132,3 +132,17 @@ footer{
     color: black;
     box-shadow: 0 0 15px #08ceff;
 } 
+
+.footsec{
+    padding-top: 1%;
+}
+
+.footsec a{
+    color: white;
+    text-decoration: none;
+    padding-left: 70px;
+}
+
+.footsec a:hover{
+    text-shadow: 0 0 8px #08ceff;
+}
