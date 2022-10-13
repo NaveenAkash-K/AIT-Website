@@ -83,7 +83,7 @@ hr {
 
 footer{
     color: white;
-    margin: 2% 10% 2% 10%;
+    margin: 20px 100px 20px 100px;
     background-color: #1B1533;
     display: flex;
     justify-content: space-around;
@@ -134,7 +134,7 @@ footer{
 } 
 
 .footsec{
-    padding-top: 1%;
+    padding-top: 10px;
 }
 
 .footsec a{
